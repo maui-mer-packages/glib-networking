@@ -1,6 +1,6 @@
 Name: glib-networking
 Summary: Network extensions for GLib
-Version: 2.29.9
+Version: 2.38.2
 Release: 1
 Group: System/Libraries
 License: LGPLv2
@@ -8,7 +8,7 @@ URL: http://git.gnome.org/browse/glib-networking/
 Description: Networking extensions for GLib
 
 Sources:
-    - http://ftp.gnome.org/pub/gnome/sources/%{name}/2.28/%{name}-%{version}.tar.bz2
+    - "%{name}-%{version}.tar.xz"
 
 SetupOptions: -q -n %{name}-%{version}/glib-networking
 
